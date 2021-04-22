@@ -293,9 +293,9 @@ function! s:MotionArgument(inner, visual)
 endfunction
 
 " maping definition
-vnoremap <silent> ia <ESC>:call <SID>MotionArgument(1, 1)<CR>
+vnoremap <silent> ha <ESC>:call <SID>MotionArgument(1, 1)<CR>
 vnoremap <silent> aa <ESC>:call <SID>MotionArgument(0, 1)<CR>
-onoremap <silent> ia :call <SID>MotionArgument(1, 0)<CR>
+onoremap <silent> ha :call <SID>MotionArgument(1, 0)<CR>
 onoremap <silent> aa :call <SID>MotionArgument(0, 0)<CR>
 
 " option. turn 1 to search the most toplevel function
